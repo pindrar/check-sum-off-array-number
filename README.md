@@ -1,42 +1,28 @@
 # check-sum-off-array-number
-Created by Pratama Indra R
+Created by Pratama Indra R \n
+This function will check the sum of multi dimension array is same or not:
+horizontal, vertical, cross from up left to bottom right and cross from up right to bottom lef
 ## Usage
 
 ```js
-import { AnimationController } from 'react-native-animation-controller';
+const arrayNumber = [
+[1,1,1,1,1],
+[1,1,1,1,1],
+[1,1,1,1,1],
+[1,1,1,1,1],
+[1,1,1,1,1],
+]
 
-// ...
+console.log(checkNumber(number)) // true
 
-<AnimationController
-    direction={"down"}
-    isFade={true}
-    delay={200}
-    duration={2000}
-    hideBeforeAnimation={true}>
-        <Text>Animation Fade Down</Text>
-</AnimationController>
-<AnimationController
-    direction={"left"}
-    isFade={true}
-    delay={200}
-    duration={2000}
-    hideBeforeAnimation={true}>
-        <Text>Animation Fade Left</Text>
-</AnimationController>
-<AnimationController
-    direction={"right"}
-    isFade={true}
-    delay={200}
-    duration={2000}
-    hideBeforeAnimation={true}>
-        <Text>Animation Fade Right</Text>
-</AnimationController>
-<AnimationController
-    direction={"up"}
-    isFade={true}
-    delay={200}
-    duration={2000}
-    hideBeforeAnimation={true}>
-        <Text>Animation Fade Up</Text>
-</AnimationController>
+const arrayNumber = [
+[1,1,1,1,1],
+[1,1,1,1,1],
+[1,1,5,1,1],
+[1,1,1,1,1],
+[1,1,1,1,1],
+]
+
+console.log(checkNumber(number)) // false
+
 ```
