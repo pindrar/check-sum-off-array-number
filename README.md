@@ -1,5 +1,5 @@
 # check-sum-off-array-number
-Created by Pratama Indra R \n
+Created by Pratama Indra R /n
 This function will check the sum of multi dimension array is same or not:
 horizontal, vertical, cross from up left to bottom right and cross from up right to bottom lef
 ## Usage
