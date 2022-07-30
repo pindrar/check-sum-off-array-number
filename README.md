@@ -13,7 +13,7 @@ const arrayNumber = [
 [1,1,1,1,1],
 ]
 
-console.log(checkNumber(number)) // true
+console.log(checkNumber(arrayNumber)) // true
 
 const arrayNumber = [
 [1,1,1,1,1],
@@ -23,6 +23,6 @@ const arrayNumber = [
 [1,1,1,1,1],
 ]
 
-console.log(checkNumber(number)) // false
+console.log(checkNumber(arrayNumber)) // false
 
 ```
